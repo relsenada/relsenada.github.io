@@ -6,8 +6,7 @@ body {	margin: 0;
 		background-attachment: fixed;
 		font-family: century gothic;
 		background-repeat: no-repeat;
-		width: auto;
-		height: auto;
+		height: 100vh;
 	}
 
 .title { margin-top: 100px;
