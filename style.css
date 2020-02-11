@@ -3,14 +3,14 @@
 }
 body {	
 		background-color: black;
+		height: 100vh;
 }
 #particles-js{
 	background-image: url(bisa.jfif);
 	background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    width: auto;
-    height: auto;
+    background-repeat: no-repeat
+    height: 100vh;
 }
 
 h1 { font-weight:600px;
