@@ -1,0 +1,158 @@
+* {
+	margin: 0; padding: 0;
+}
+body {	
+		background-color: black;
+		background-image: url(bisa.jfif);
+		background-size: cover;
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+    	height: 100vh;
+}
+#particles-js{
+}
+
+h1 { font-weight:600px;
+  	font-size:42px;
+  	color:black;
+  	text-shadow:
+  	0px 0px 4px #ccc,
+ 	-1px -5px 4px #ff3,
+ 	2px -10px 6px #fd3,
+ 	-3px -15px 11px #f80,
+ 	3px -18px 18px #f20;
+	font-size: 65px;
+	padding: 25px;
+	}
+
+.container { width: 750px;
+			height: 35px;
+			background-color: gray;
+			margin-left: auto;
+			margin-right: auto;
+			color: white;
+			margin-top: 65px;
+		}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 70px;
+	}
+
+ul li a{
+	color: white;
+}
+
+.header a:hover {
+	background-color: red;
+	color: white;
+	}
+h2 { font-weight:755px;
+ 	color:#fff;
+ 	text-shadow:
+   	0 0 3px #FFFFA0,
+   	0 0 5px #FFFF4D,
+   	0 0 9px #FFFF41,
+   	0 0 20px #FFFF2A,
+   	0 0 25px #FFFF2B,
+   	0 0 30px #FEFE00,
+   	0 0 40px #F7F700;
+	font-size: 25px;
+	padding: 15px;
+	}
+
+h3 { color: white;
+	}
+
+.hihi { width: 750px;
+		height: 35px;
+		background-color: white;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.haha {  
+		margin-left: 270px;
+		padding: 10px;
+		color: black;
+	}
+/* demo */
+.typewriter h3 {
+  overflow: hidden; /* memastikan konten tidak tampil sebelum animasi dimulai */
+
+  white-space: nowrap; /* tetap menjaga konten berada pada satu garis */
+  margin: 0 auto; /* membuat efek scrolling pada saat animasi berjalan */
+
+  animation: 
+    typing 7.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    font-size: 15px;
+}
+ 
+/* efek pengetikan */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+ 
+/* efek pada cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+p {
+  font-size: 15px;
+}
+
+h4 { font-weight:600px;
+  	color:black;
+  	text-shadow:
+  	0px 0px 4px #ccc,
+ 	-1px -5px 4px #ff3,
+ 	2px -10px 6px #fd3,
+ 	-3px -15px 11px #f80,
+ 	3px -18px 18px #f20;
+	font-size: 25px;
+	padding: 25px;
+	}
+
+.search-box{ position: absolute;
+			 left: 50%;
+			transform: translate(-50%,-50%);
+			background: orange;
+			border-radius: 40px;
+			top: 5%;
+			height: 25px;
+			padding: 5px;
+			}
+
+.search-btn { color: white;
+			  float: right;
+			  width: 30px;
+			  height: 30px;
+			  border-radius: 50%;
+			  background: red;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  margin-top: -1.5px;
+			}
+
+.search-txt { border: none;
+			  background: none;
+			  outline: none;
+			  float: left;
+			  padding: 0;
+			  color: white;
+			  font-size: 16px;
+			  transition: 0.4s;
+			  line-height: 25px;
+			  width: 400px;
+			}
+
+
+
+
+
+
